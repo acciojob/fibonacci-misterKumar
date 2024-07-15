@@ -32,6 +32,10 @@ let a = 0, b = 1, temp;
 if (num === 1 ||num==0) {
     return 0;
 }
+	//this is for uncommented one only
+	if(num==2){
+		return 1;
+	}
 /*for (let i = 2; i <= num; i++) {
     temp = a + b;
     a = b;
